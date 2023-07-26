@@ -28,42 +28,36 @@ const AboutSection = () => {
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
-          About Me
+          Sobre Mi
           <hr className="w-6 h-1 mx-auto my-4 bg-pink-400 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+            ¡Te invito a conocerme!
             </h1>
             <p>
-              Hi, my name is Geronimo and I am a{" "}
-              <span className="font-bold">{"very ambitious"}</span>, and
-              <span className="font-bold">{" motivated"}</span> software developer living in a quiet town in the south of Cordoba, Argentina.
+              Hola a todos, mi nombre es Gerónimo soy un desarrollador de software <span className="font-bold">muy ambicioso</span> y <span className="font-bold">motivado</span> que vive en un pueblo tranquilo en el sur de Córdoba, Argentina.
             </p>
             <br />
             <p>
-              I was studying systems engineering at the national technology university but I left the race to get fully into the mud in the world of programming, which is what fills me. I finished a 6-month Fullstack programming bootcamp and to this day I&apos;m still updating my skills and taking courses.
+              Estudiaba ingeniería en sistemas en la universidad tecnológica nacional pero dejé la carrera para meterme de lleno en el barro en el mundo de la programación, que es lo que me llena. Terminé un bootcamp de programación Fullstack de 6 meses y hasta el día de hoy sigo actualizando mis habilidades y tomando cursos.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy. From playing paddle tennis, going to the gym, getting together with my friends. I am always looking for new experiences and I love staying engaged and learning new things.
+              Tengo una amplia gama de pasatiempos y pasiones que me mantienen ocupado. Desde jugar al pádel, ir al gimnasio, juntarme con mis amigos. Siempre estoy buscando nuevas experiencias y me encanta mantenerme comprometida y aprender cosas nuevas.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-pink-400">
+              {/* <span className="font-bold text-pink-400">
                 never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              </span>{" "} */}
+              Creo que nunca se debe dejar de crecer y eso es lo que me esfuerzo por hacer, tengo pasión por la tecnología y el deseo de <span className="font-bold text-pink-400">empujar siempre los límites de lo que es posible</span>. Estoy emocionado de ver a dónde me lleva mi carrera y siempre estoy abierto a nuevas oportunidades. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-6">Mis habilidades Tech</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (

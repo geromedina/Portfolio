@@ -19,15 +19,14 @@ const HeroSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5">
           <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Geronimo!</h1>
+            <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">¡Hola, soy Gerónimo!</h1>
           </div>
           <p className="text-lg mt-4 mb-6 md:text-2xl font-medium">
-            I&#39;m a{" "}
+            Soy un{" "}
             <span className="font-bold text-pink-400">
-              Fullstack Developer{" "}
+              Desarrollador Fullstack{" "}
             </span>
-            based in Cordoba, Argentina. Working towards creating software that
-            makes life easier and more meaningful.
+            nacido en Cordoba, Argentina. Trabajando para crear software que haga la vida más fácil y significativa.
           </p>
           <Link
             to="portfolio"
@@ -38,7 +37,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Portfolio
+            Mi Portfolio
           </Link>
         </div>
       </div>

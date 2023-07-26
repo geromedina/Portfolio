@@ -14,11 +14,11 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Home",
+    label: "Inicio",
     page: "home",
   },
   {
-    label: "About",
+    label: "Sobre Mi",
     page: "about",
   },
   {
@@ -26,7 +26,7 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "portfolio",
   },
   {
-    label: "Contact",
+    label: "Contáctame",
     page: "contact",
   },
 ]

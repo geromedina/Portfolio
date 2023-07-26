@@ -11,7 +11,7 @@ const ContactSection = () => {
         <section id="contact">
             <div className="my-14 pb-12 md:pt-16 md:pb-8">
                 <h1 className="text-center font-bold text-4xl mb-10">
-                    Let&#39;s talk!
+                Trabajemos Juntos!
                     <hr className="w-6 h-1 mx-auto my-4 bg-pink-400 border-0 rounded"></hr>
                 </h1>
                 <div className="text-center mx-auto mb-5">

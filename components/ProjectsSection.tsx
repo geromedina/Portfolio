@@ -8,21 +8,21 @@ const projects = [
   {
     name: "FromZeroToDev",
     description:
-      "FromZeroToDev is an asynchronous course platform created in a group of 6 people using agile SCRUM methodologies. It has user authentication with Auth0, payment gateway, dashboard for the admin, mailing. We use TypeScript, Redux Toolkit, Tailwind, MongoDB and Mongoose.",
+      "FromZeroToDev es una plataforma de cursos asincrónicos creada en un grupo de 6 personas utilizando metodologías ágiles SCRUM. Cuenta con autenticación de usuario con Auth0, pasarela de pago, tablero para el admin, mailing. Usamos TypeScript, Redux Toolkit, Tailwind, MongoDB y Mongoose.",
     image: "/project1.png",
     github: "https://github.com/geromedina/FromZeroToDev",
     link: "https://from-zero-to-dev-posta.vercel.app/",
   },
   {
     name: "CRM GraphQL",
-    description: "CRM is an application made with the stack React, Next.js, GraphQL, Apollo, MongoDB, Tailwind and Formik",
+    description: "CRM es una aplicación hecha con el stack React, Next.js, GraphQL, Apollo, MongoDB, Tailwind y Formik.",
     image: "/project3.png",
     github: "https://github.com/geromedina/crmcliente",
     link: "https://github.com/geromedina/crmcliente",
   },
   {
     name: "Pokemon APP",
-    description: "Single Page App will be realized in the individual Henry bootcamp project, using the React, Redux, Node, Express and Sequelize stack.",
+    description: "Pokemon App es una aplicacion que hice para mi proyecto individual del bootcamp #SoyHenry, utilizando el stack de tecnologias: React, Redux, Node, Express y Sequelize.",
     image: "/project3.png",
     github: "https://github.com/geromedina/Pokemon-Project",
     link: "https://deploy-pokemon-coral.vercel.app/",
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
   return (
     <section id="portfolio">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Portfolio
+        Mis Trabajos
         <hr className="w-6 h-1 mx-auto my-4 bg-pink-400 border-0 rounded"></hr>
       </h1>
 
