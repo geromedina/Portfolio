@@ -85,29 +85,29 @@ export default function Navbar() {
                   </Link>
                 )
               })}
-              {currentTheme === "dark" ? (
-                <button
-                  onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiSunLine size={25} color="black" />
-                </button>
-              ) : (
-                <button
-                  onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiMoonFill size={25} />
-                </button>
-              )}
-              <div>
-                <button onClick={() => i18n.changeLanguage("es")} className="bg-slate-100 p-2 rounded-xl m-3 text-black font-semibold">ES</button>
-                <button onClick={() => i18n.changeLanguage("en")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">EN</button>
+              <div className="flex space-x-2">
+                <button onClick={() => i18n.changeLanguage("es")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">Español</button>
+                <button onClick={() => i18n.changeLanguage("en")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">English</button>
+                {currentTheme === "dark" ? (
+                  <button
+                    onClick={() => setTheme("light")}
+                    className="bg-slate-100 p-2 rounded-xl"
+                  >
+                    <RiSunLine size={25} color="black" />
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => setTheme("dark")}
+                    className="bg-slate-100 p-2 rounded-xl"
+                  >
+                    <RiMoonFill size={25} />
+                  </button>
+                )}
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </div >
+    </header >
   )
 }
