@@ -1,6 +1,5 @@
 "use client" // this is a client component
-import React from "react"
-import { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -13,12 +12,19 @@ interface NavItem {
   page: string
 }
 
-export default function Navbar() {
+export default function Navbar({ onLanguageChange }: { onLanguageChange: (language: string) => void }) {
   const [t, i18n] = useTranslation("global");
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem("language");
+    if (savedLanguage) {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, []);
 
   const NAV_ITEMS: Array<NavItem> = [
     {
@@ -86,8 +92,14 @@ export default function Navbar() {
                 )
               })}
               <div className="flex space-x-2">
-                <button onClick={() => i18n.changeLanguage("es")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">Español</button>
-                <button onClick={() => i18n.changeLanguage("en")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">English</button>
+                <button onClick={() => {
+                  onLanguageChange("es");
+                  i18n.changeLanguage("es");
+                }} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">Español</button>
+                <button onClick={() => {
+                  onLanguageChange("en");
+                  i18n.changeLanguage("en");
+                }} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">English</button>
                 {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
