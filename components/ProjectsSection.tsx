@@ -1,39 +1,44 @@
+"use client" // this is a client component
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { useTranslation } from "react-i18next"
 
-const projects = [
-  {
-    name: "FromZeroToDev",
-    description:
-      "FromZeroToDev es una plataforma de cursos asincrónicos creada en un grupo de 6 personas utilizando metodologías ágiles SCRUM. Cuenta con autenticación de usuario con Auth0, pasarela de pago, tablero para el admin, mailing. Usamos TypeScript, Redux Toolkit, Tailwind, MongoDB y Mongoose.",
-    image: "/project1.png",
-    github: "https://github.com/geromedina/FromZeroToDev",
-    link: "https://from-zero-to-dev-posta.vercel.app/",
-  },
-  {
-    name: "CRM GraphQL",
-    description: "CRM es una aplicación hecha con el stack React, Next.js, GraphQL, Apollo, MongoDB, Tailwind y Formik.",
-    image: "/project3.png",
-    github: "https://github.com/geromedina/crmcliente",
-    link: "https://github.com/geromedina/crmcliente",
-  },
-  {
-    name: "Pokemon APP",
-    description: "Pokemon App es una aplicacion que hice para mi proyecto individual del bootcamp #SoyHenry, utilizando el stack de tecnologias: React, Redux, Node, Express y Sequelize.",
-    image: "/project3.png",
-    github: "https://github.com/geromedina/Pokemon-Project",
-    link: "https://deploy-pokemon-coral.vercel.app/",
-  },
-]
 
 const ProjectsSection = () => {
+
+  const [t, i18n] = useTranslation("global");
+
+  const projects = [
+    {
+      name: t("projectssection.projects.1.name"),
+      description: t("projectssection.projects.1.description"),
+      image: t("projectssection.projects.1.image"),
+      github: t("projectssection.projects.1.github"),
+      link: t("projectssection.projects.1.link"),
+    },
+    {
+      name: t("projectssection.projects.2.name"),
+      description: t("projectssection.projects.2.description"),
+      image: t("projectssection.projects.2.image"),
+      github: t("projectssection.projects.2.github"),
+      link: t("projectssection.projects.2.link"),
+    },
+    {
+      name: t("projectssection.projects.3.name"),
+      description: t("projectssection.projects.3.description"),
+      image: t("projectssection.projects.3.image"),
+      github: t("projectssection.projects.3.github"),
+      link: t("projectssection.projects.3.link"),
+    },
+  ]
+
   return (
     <section id="portfolio">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Mis Trabajos
+        {t("projectssection.h1")}
         <hr className="w-6 h-1 mx-auto my-4 bg-pink-400 border-0 rounded"></hr>
       </h1>
 
@@ -79,7 +84,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )

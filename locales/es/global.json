@@ -1,0 +1,64 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "portfolio": "Portfolio",
+        "contact": "Contáctame"
+    },
+    "herosection": {
+        "h1": "¡Hola, soy Gerónimo!",
+        "1": "Soy un",
+        "2": "Desarrollador Fullstack",
+        "3": "nacido en Cordoba, Argentina. Trabajando para crear software que haga la vida más fácil y significativa.",
+        "4": "Mi Portfolio"
+    },
+    "aboutsection": {
+        "h1": "Sobre Mi",
+        "h1-2": "¡Te invito a conocerme!",
+        "1": "Hola a todos, mi nombre es Gerónimo soy un desarrollador de software",
+        "2": "muy ambicioso",
+        "3": "motivado",
+        "4": "que vive en un pueblo tranquilo en el sur de Córdoba, Argentina.",
+        "5": "Estudiaba ingeniería en sistemas en la universidad tecnológica nacional pero dejé la carrera para meterme de lleno en el barro en el mundo de la programación, que es lo que me llena. Terminé un bootcamp de programación Fullstack de 6 meses y hasta el día de hoy sigo actualizando mis habilidades y tomando cursos.",
+        "6": "Tengo una amplia gama de pasatiempos y pasiones que me mantienen ocupado. Desde jugar al pádel, ir al gimnasio, juntarme con mis amigos. Siempre estoy buscando nuevas experiencias y me encanta mantenerme comprometida y aprender cosas nuevas.",
+        "7": "Creo que nunca se debe dejar de crecer y eso es lo que me esfuerzo por hacer, tengo pasión por la tecnología y el deseo de",
+        "8": "empujar siempre los límites de lo que es posible",
+        "9": ". Estoy emocionado de ver a dónde me lleva mi carrera y siempre estoy abierto a nuevas oportunidades. 🙂",
+        "10": "Mis habilidades Tech"
+    },
+    "dowloadCVbutton": {
+        "text": "Descargar CV"
+    },
+    "projectssection": {
+        "h1": "Mis Trabajos",
+        "projects": {
+            "1": {
+                "name": "FromZeroToDev",
+                "description": "FromZeroToDev es una plataforma de cursos asincrónicos creada en un grupo de 6 personas utilizando metodologías ágiles SCRUM. Cuenta con autenticación de usuario con Auth0, pasarela de pagos, tablero para el admin, mailing. Usamos TypeScript, Redux Toolkit, Tailwind, MongoDB y Mongoose.",
+                "image": "/project1.png",
+                "github": "https://github.com/geromedina/FromZeroToDev",
+                "link": "https://from-zero-to-dev-posta.vercel.app/"
+            },
+            "2": {
+                "name": "CRM GraphQL",
+                "description": "CRM es una aplicación hecha con el stack React, Next.js, GraphQL, Apollo, MongoDB, Tailwind y Formik.",
+                "image": "/project3.png",
+                "github": "https://github.com/geromedina/crmcliente",
+                "link": "https://github.com/geromedina/crmcliente"
+            },
+            "3": {
+                "name": "Pokemon APP",
+                "description": "Pokemon App es una aplicacion que hice para mi proyecto individual del bootcamp #SoyHenry, utilizando el stack de tecnologias: React, Redux, Node, Express y Sequelize.",
+                "image": "/project3.png",
+                "github": "https://github.com/geromedina/Pokemon-Project",
+                "link": "https://deploy-pokemon-coral.vercel.app/"
+            }
+        }
+    },
+    "contactsection": {
+        "h1": "Trabajemos juntos!"
+    },
+    "footer": {
+        "text": "© 2023 | Diseñado con 🤍 desde Argentina."
+    }
+}

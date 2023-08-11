@@ -6,36 +6,39 @@ import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import { useTranslation } from "react-i18next"
 
 interface NavItem {
   label: string
   page: string
 }
 
-const NAV_ITEMS: Array<NavItem> = [
-  {
-    label: "Inicio",
-    page: "home",
-  },
-  {
-    label: "Sobre Mi",
-    page: "about",
-  },
-  {
-    label: "Portfolio",
-    page: "portfolio",
-  },
-  {
-    label: "Contáctame",
-    page: "contact",
-  },
-]
-
 export default function Navbar() {
+  const [t, i18n] = useTranslation("global");
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
+  const NAV_ITEMS: Array<NavItem> = [
+    {
+      label: t("navbar.home"),
+      page: "home",
+    },
+    {
+      label: t("navbar.about"),
+      page: "about",
+    },
+    {
+      label: t("navbar.portfolio"),
+      page: "portfolio",
+    },
+    {
+      label: t("navbar.contact"),
+      page: "contact",
+    },
+  ]
+
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
@@ -59,9 +62,8 @@ export default function Navbar() {
 
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 cursor-pointer">
               {NAV_ITEMS.map((item, idx) => {
@@ -98,6 +100,10 @@ export default function Navbar() {
                   <RiMoonFill size={25} />
                 </button>
               )}
+              <div>
+                <button onClick={() => i18n.changeLanguage("es")} className="bg-slate-100 p-2 rounded-xl m-3 text-black font-semibold">ES</button>
+                <button onClick={() => i18n.changeLanguage("en")} className="bg-slate-100 p-2 rounded-xl text-black font-semibold">EN</button>
+              </div>
             </div>
           </div>
         </div>

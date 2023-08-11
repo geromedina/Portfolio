@@ -1,7 +1,8 @@
+
 export default function Head() {
   return (
     <>
-      <title>Geronimo Medina - Desarrollador</title>
+      <title>Geronimo - Fullstack Developer</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Creado por Geronimo" />
       <link
