@@ -13,18 +13,18 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      name: t("projectssection.projects.1.name"),
-      description: t("projectssection.projects.1.description"),
-      image: t("projectssection.projects.1.image"),
-      github: t("projectssection.projects.1.github"),
-      link: t("projectssection.projects.1.link"),
-    },
-    {
       name: t("projectssection.projects.4.name"),
       description: t("projectssection.projects.4.description"),
       image: t("projectssection.projects.4.image"),
       github: t("projectssection.projects.4.github"),
       link: t("projectssection.projects.4.link"),
+    },
+    {
+      name: t("projectssection.projects.1.name"),
+      description: t("projectssection.projects.1.description"),
+      image: t("projectssection.projects.1.image"),
+      github: t("projectssection.projects.1.github"),
+      link: t("projectssection.projects.1.link"),
     },
     // {
     //   name: t("projectssection.projects.2.name"),
