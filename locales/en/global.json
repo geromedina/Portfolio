@@ -47,11 +47,18 @@
                 "link": "https://github.com/geromedina/crmcliente"
             },
             "3": {
-                "name": "Pokemon APP",
+                "name": "Pokemon",
                 "description": "Pokemon App is an application I made for my individual bootcamp project #I'mHenry, using the stack of technologies: React, Redux, Node, Express and Sequelize.",
                 "image": "/project3.png",
                 "github": "https://github.com/geromedina/Pokemon-Project",
                 "link": "https://deploy-pokemon-coral.vercel.app/"
+            },
+            "4": {
+                "name": "Arbi'Track",
+                "description": "Currently, I have the privilege of working as a Fullstack Developer at Arbi'Track, a company that provides accounting support for cryptocurrency arbitration. In this role, I have gained valuable perspective on developing high-quality web applications and collaborating in multidisciplinary teams.",
+                "image": "/project4.png",
+                "github": "https://github.com/facundozanabre/miweb",
+                "link": "https://www.arbi-track.com.ar/"
             }
         }
     },
