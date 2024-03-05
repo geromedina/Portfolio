@@ -8,7 +8,7 @@ const DownloadCV = () => {
 
     const getDownloadLink = () => {
         const language = i18n.language;
-        const fileName = language === 'es' ? 'CV - Spanish.pdf' : 'CV - English.pdf';
+        const fileName = language === 'es' ? 'CV - Geronimo Agustin Medina [ES].pdf' : 'CV - Geronimo Agustin Medina [EN].pdf';
         return `./${fileName}`;
     };
 
