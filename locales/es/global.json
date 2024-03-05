@@ -40,11 +40,11 @@
                 "link": "https://from-zero-to-dev-posta.vercel.app/"
             },
             "2": {
-                "name": "CRM GraphQL",
-                "description": "CRM es una aplicación hecha con el stack React, Next.js, GraphQL, Apollo, MongoDB, Tailwind y Formik.",
-                "image": "/project3.png",
-                "github": "https://github.com/geromedina/crmcliente",
-                "link": "https://github.com/geromedina/crmcliente"
+                "name": "Gaming - E-Commerce",
+                "description": "Gaming es una app hecha con Next.js, Strapi, Stripe como pasarela de pagos, servicios AWS y librerias SASS, Formik, Yup..",
+                "image": "/project2.png",
+                "github": "https://github.com/geromedina/ecommerce-next-strapi",
+                "link": "https://nextjsgamingappgero.netlify.app/"
             },
             "3": {
                 "name": "Pokemon",
