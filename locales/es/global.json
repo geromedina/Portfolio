@@ -55,10 +55,17 @@
             },
             "4": {
                 "name": "Arbi'Track",
-                "description": "Actualmente, tengo el privilegio de trabajar como Fullstack Developer en Arbi'Track una empresa que brinda ayuda contable al arbitraje con criptomonedas. En este rol, he adquirido una perspectiva valiosa sobre el desarrollo de aplicaciones web de alta calidad y la colaboración en equipos multidisciplinarios.",
+                "description": "Trabajé durante 6 meses como desarrollador fullstack en Arbi'Track, una empresa que brinda ayuda contable al arbitrador de criptomonedas. En este rol, he adquirido habilidad como lider del equipo y una perspectiva valiosa sobre el desarrollo de aplicaciones web de alta calidad.",
                 "image": "/project4.png",
                 "github": "https://github.com/facundozanabre/miweb",
                 "link": "https://www.arbitrack.com.ar/"
+            },
+            "5": {
+                "name": "Nike tienda de zapatos clon",
+                "description": "Este es un proyecto personal que hice para pulir habilidades. En el frontend con Next.js 13 y TailwindCSS y en el backend con Strapi Headless CMS. Y esta deployado en vercel y render.",
+                "image": "/project5.png",
+                "github": "https://github.com/geromedina/shoe-store-frontend",
+                "link": "https://shoe-store-frontend-eight-alpha.vercel.app/"
             }
         }
     },

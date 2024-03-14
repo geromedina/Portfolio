@@ -55,10 +55,19 @@
             },
             "4": {
                 "name": "Arbi'Track",
-                "description": "Currently, I have the privilege of working as a Fullstack Developer at Arbi'Track, a company that provides accounting support for cryptocurrency arbitration. In this role, I have gained valuable perspective on developing high-quality web applications and collaborating in multidisciplinary teams.",
+                "description": "I worked for 6 months as a fullstack developer at Arbi'Track, a company that provides accounting help to cryptocurrency arbitrageur. In this role, I have gained skill as a team leader and valuable insight into developing high-quality web applications.",
                 "image": "/project4.png",
                 "github": "https://github.com/facundozanabre/miweb",
                 "link": "https://www.arbitrack.com.ar/"
+            },
+            "5": {
+                "5": {
+                    "name": "Nike clone shoe store",
+                    "description": "This is a personal project I did to polish skills. On the frontend with Next.js 13 and TailwindCSS and on the backend with Strapi Headless CMS. And it is deployed in vercel and render.",
+                    "image": "/project5.png",
+                    "github": "https://github.com/geromedina/shoe-store-frontend",
+                    "link": "https://shoe-store-frontend-eight-alpha.vercel.app/"
+                }
             }
         }
     },

@@ -20,6 +20,13 @@ const ProjectsSection = () => {
       link: t("projectssection.projects.4.link"),
     },
     {
+      name: t("projectssection.projects.5.name"),
+      description: t("projectssection.projects.5.description"),
+      image: t("projectssection.projects.5.image"),
+      github: t("projectssection.projects.5.github"),
+      link: t("projectssection.projects.5.link"),
+    },
+    {
       name: t("projectssection.projects.2.name"),
       description: t("projectssection.projects.2.description"),
       image: t("projectssection.projects.2.image"),
@@ -40,6 +47,7 @@ const ProjectsSection = () => {
       github: t("projectssection.projects.3.github"),
       link: t("projectssection.projects.3.link"),
     },
+
   ]
 
   return (
