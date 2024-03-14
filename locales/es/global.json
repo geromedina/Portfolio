@@ -39,6 +39,13 @@
                 "github": "https://github.com/geromedina/FromZeroToDev",
                 "link": "https://from-zero-to-dev-posta.vercel.app/"
             },
+            "5": {
+                "name": "Nike tienda de zapatos clon",
+                "description": "Este es un proyecto personal que hice para pulir habilidades. En el frontend con Next.js 13 y TailwindCSS y en el backend con Strapi Headless CMS. Y esta deployado en vercel y render.",
+                "image": "/project5.png",
+                "github": "https://github.com/geromedina/shoe-store-frontend",
+                "link": "https://shoe-store-frontend-eight-alpha.vercel.app/"
+            },
             "2": {
                 "name": "Gaming - E-Commerce",
                 "description": "Gaming es una app hecha con Next.js, Strapi, Stripe como pasarela de pagos, servicios AWS y librerias SASS, Formik, Yup..",
@@ -59,13 +66,6 @@
                 "image": "/project4.png",
                 "github": "https://github.com/facundozanabre/miweb",
                 "link": "https://www.arbitrack.com.ar/"
-            },
-            "5": {
-                "name": "Nike tienda de zapatos clon",
-                "description": "Este es un proyecto personal que hice para pulir habilidades. En el frontend con Next.js 13 y TailwindCSS y en el backend con Strapi Headless CMS. Y esta deployado en vercel y render.",
-                "image": "/project5.png",
-                "github": "https://github.com/geromedina/shoe-store-frontend",
-                "link": "https://shoe-store-frontend-eight-alpha.vercel.app/"
             }
         }
     },
