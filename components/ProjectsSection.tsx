@@ -1,17 +1,29 @@
-"use client" // this is a client component
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
-import { useTranslation } from "react-i18next"
-
+"use client"; // this is a client component
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
 const ProjectsSection = () => {
-
   const [t, i18n] = useTranslation("global");
 
   const projects = [
+    {
+      name: t("projectssection.projects.6.name"),
+      description: t("projectssection.projects.6.description"),
+      image: t("projectssection.projects.6.image"),
+      github: t("projectssection.projects.6.github"),
+      link: t("projectssection.projects.6.link"),
+    },
+    {
+      name: t("projectssection.projects.4.name"),
+      description: t("projectssection.projects.4.description"),
+      image: t("projectssection.projects.4.image"),
+      github: t("projectssection.projects.4.github"),
+      link: t("projectssection.projects.4.link"),
+    },
     {
       name: t("projectssection.projects.4.name"),
       description: t("projectssection.projects.4.description"),
@@ -47,8 +59,7 @@ const ProjectsSection = () => {
       github: t("projectssection.projects.3.github"),
       link: t("projectssection.projects.3.link"),
     },
-
-  ]
+  ];
 
   return (
     <section id="portfolio">
@@ -97,12 +108,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

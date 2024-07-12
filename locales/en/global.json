@@ -66,6 +66,13 @@
                 "image": "/project5.png",
                 "github": "https://github.com/geromedina/shoe-store-frontend",
                 "link": "https://shoe-store-frontend-eight-alpha.vercel.app/"
+            },
+            "6": {
+                "name": "UpTask",
+                "description": "I made this website in a training that had 13 projects, so I took my skills with React.js and TypeScript to another level. This project uses the MERN stack, a robust user authentication and registration system with account confirmation, password reset, and also includes roles. It also has a fairly complex and advanced REST API.",
+                "image": "/project6.png",
+                "github": "https://github.com/geromedina/UpTask_Frontend",
+                "link": "https://up-task-frontend-olive.vercel.app/"
             }
         }
     },

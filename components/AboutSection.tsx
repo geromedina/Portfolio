@@ -1,32 +1,31 @@
-"use client" // this is a client component
-import React from "react"
-import DownloadCV from "./DownloadCV"
-import { useTranslation } from "react-i18next"
+"use client"; // this is a client component
+import React from "react";
+import DownloadCV from "./DownloadCV";
+import { useTranslation } from "react-i18next";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "React.js" },
   { skill: "Node.js" },
+  { skill: "Next.js" },
+  { skill: "Trello" },
   { skill: "Redux" },
-  { skill: "Express" },
+  { skill: "Express.js" },
+  { skill: "Tailwind CSS" },
+  { skill: "Zod" },
+  { skill: "Zustand" },
+  { skill: "Git" },
+  { skill: "GitHub" },
+  { skill: "HTML" },
+  { skill: "CSS" },
   { skill: "Sequelize" },
   { skill: "MongoDB" },
   { skill: "PostgreSQL" },
   { skill: "GraphQL" },
-  { skill: "Apollo" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Bootstrap" },
-]
+];
 
 const AboutSection = () => {
-
   const [t, i18n] = useTranslation("global");
 
   return (
@@ -43,19 +42,22 @@ const AboutSection = () => {
               {t("aboutsection.h1-2")}
             </h1>
             <p>
-              {t("aboutsection.1")} <span className="font-bold">{t("aboutsection.2")}</span> y <span className="font-bold">{t("aboutsection.3")}</span> {t("aboutsection.4")}
+              {t("aboutsection.1")}{" "}
+              <span className="font-bold">{t("aboutsection.2")}</span> y{" "}
+              <span className="font-bold">{t("aboutsection.3")}</span>{" "}
+              {t("aboutsection.4")}
             </p>
             <br />
-            <p>
-              {t("aboutsection.5")}
-            </p>
+            <p>{t("aboutsection.5")}</p>
+            <br />
+            <p>{t("aboutsection.6")}</p>
             <br />
             <p>
-              {t("aboutsection.6")}
-            </p>
-            <br />
-            <p>
-              {t("aboutsection.7")} <span className="font-bold text-pink-400">{t("aboutsection.8")}</span>{t("aboutsection.9")}
+              {t("aboutsection.7")}{" "}
+              <span className="font-bold text-pink-400">
+                {t("aboutsection.8")}
+              </span>
+              {t("aboutsection.9")}
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -69,7 +71,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <div className="py-6">
@@ -79,7 +81,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
